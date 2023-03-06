@@ -33,6 +33,10 @@ const Createevent = ({ placeholder }) => {
             </div>
           </div>
           <div className="col-4 px-3">
+            <div className="d-flex justify-content-end gap-4  my-3">
+              <button className="btn btn-dark">Preview</button>
+              <button className="btn btn-dark">Publish</button>
+            </div>
             <div className="d-flex flex-column  my-3">
               <label className="c-s-2">Venue</label>
               <input
@@ -95,10 +99,6 @@ const Createevent = ({ placeholder }) => {
                   id="priceinput"
                 />
               </div>
-            <div className="d-flex justify-content-end gap-4  my-3">
-              <button className="btn btn-dark">Preview</button>
-              <button className="btn btn-dark">Publish</button>
-            </div>
           </div>
         </div>
       </div>
