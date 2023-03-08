@@ -1,14 +1,21 @@
-import './App.css';
-import Createevent from './components/Createevent';
-import Navbar from './components/Navbar';
+import {BrowserRouter,  Route, Routes} from 'react-router-dom';
+import Createevent from './pages/Createevent';
+import Home from './pages/Home';
+
 
 function App() {
   return (
-    <>
-    <Navbar />
-    <Createevent/>
-    
-    </>
+   <BrowserRouter>
+   <Routes>
+    <Route index element = {<Home/>} />
+    <Route path='/create-event' element = {<Createevent/>} />
+
+   </Routes>
+   
+   </BrowserRouter>
+
+
+  // <Createevent/>
   );
 }
 

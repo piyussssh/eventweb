@@ -1,7 +1,7 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import JoditEditor from "jodit-react";
-import {RiAddCircleLine} from "react-icons/ri"
-const Createevent = ({ placeholder }) => {
+import { RiAddCircleLine } from "react-icons/ri";
+const Createevent = () => {
   const joditRef = useRef(null);
 
   return (
@@ -82,9 +82,9 @@ const Createevent = ({ placeholder }) => {
             </div>
             <div className="d-flex flex-column  my-3">
               <div className="d-flex justify-content-between align-items-center">
-              <label className="c-s-2">Pricing</label>
-              <RiAddCircleLine className="c-s-2 me-3"/>
-                </div>
+                <label className="c-s-2">Pricing</label>
+                <RiAddCircleLine className="c-s-2 me-3" />
+              </div>
               <div className="d-flex gap-3">
                 <input
                   type="text"
@@ -99,9 +99,9 @@ const Createevent = ({ placeholder }) => {
                   id="priceinput"
                 />
               </div>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </>
   );
