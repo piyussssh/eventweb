@@ -45,6 +45,14 @@
   font-size: var(--c-s-4);
 }
 
+//card
+.c-card{
+  width: clamp(350px,40vw,400px) ;
+
+}
+.c-card :hover{
+
+}
 
 // reset
 a{
