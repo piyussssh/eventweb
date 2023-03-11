@@ -1,11 +1,13 @@
 import React, { useRef } from "react";
 import JoditEditor from "jodit-react";
+import Navbarc from "../components/Navbar";
 import { RiAddCircleLine } from "react-icons/ri";
 const Createevent = () => {
   const joditRef = useRef(null);
 
   return (
     <>
+    <Navbarc/>
       <div className="container">
         <div className="col-12 d-flex">
           <div className="col-8 pe-3 ">

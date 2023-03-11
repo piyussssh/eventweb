@@ -1,4 +1,5 @@
 import Navbarc from "../components/Navbar";
+import Footer from "../components/Footer";
 import Card from "../components/card"
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             
 
         </div>
+        <Footer/>
         </>
 
     );
