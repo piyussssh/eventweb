@@ -1,4 +1,4 @@
-import {MdMoreVert} from 'react-icons/md'
+import { MdMoreVert } from "react-icons/md";
 const Card = () => {
   return (
     <>
@@ -9,11 +9,12 @@ const Card = () => {
           alt="img"
         />
         <div className="card-content pt-3">
-            <div className="d-flex justify-content-between">
-          <h2 className="c-s-2 c-head">Event Heading One</h2>
-          <span className=''><MdMoreVert className='c-s-2'/></span>
-
-            </div>
+          <div className="d-flex justify-content-between">
+            <h2 className="c-s-2 c-head">Event Heading One</h2>
+            <span className="">
+              <MdMoreVert className="c-s-2" />
+            </span>
+          </div>
           <p className="c-s-4 c-body">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.

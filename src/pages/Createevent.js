@@ -7,7 +7,7 @@ const Createevent = () => {
 
   return (
     <>
-    <Navbarc/>
+      <Navbarc />
       <div className="container">
         <div className="col-12 d-flex">
           <div className="col-8 pe-3 ">

@@ -1,28 +1,19 @@
-// import React from "react";
-
 import { useLocation } from "react-router-dom";
-
-// custom hook to get the current pathname in React
-
 const Navbarc = () => {
   const usePathname = () => {
     const location = useLocation();
     return location.pathname;
   };
-  let createeve =["text-dark"]
-  let previeweve = ["text-dark"]
-  var path =usePathname();
-  console.log(path,"paath");
-  if(path === "/create-event"){
-    createeve.push("d-none")
-    previeweve.push("d-flex")
+  let createeve = ["text-dark"];
+  let previeweve = ["text-dark"];
+  var path = usePathname();
+  if (path === "/create-event") {
+    createeve.push("d-none");
+    previeweve.push("d-flex");
+  } else {
+    createeve.push("d-flex");
+    previeweve.push("d-none");
   }
-  else{
-    createeve.push("d-flex")
-    previeweve.push("d-none")
-  }
-  console.log(createeve,"create-event")
-  console.log(previeweve,"pre-event")
   return (
     <>
       <nav className=" py-2 container d-flex w-100 justify-content-between ">
